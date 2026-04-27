@@ -60,7 +60,7 @@ def make_fake_car_data(count):
     return data     
 
 # Part 3: The demo and testing the time
-num_cars = 100 # We can change the number to 1000 or 10000 etc.
+num_cars = 100000 # We can change the number to 1000 or 10000 etc.
 test_data = make_fake_car_data(num_cars)
 inventory = CarInventoryBST()
 
